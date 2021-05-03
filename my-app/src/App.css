@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 4rem;
+  pointer-events: none;
+  margin-right: 1.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 7.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0px 15px 17px -15px rgba(0,0,0,0.39); 
+  box-shadow: 0px 15px 17px -15px rgba(0,0,0,0.39);}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-footer {
+  height: 5rem;
+  background-color: gainsboro;
+}

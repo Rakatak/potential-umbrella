@@ -1,0 +1,15 @@
+.App-navigation {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.App-navigation-item {
+  flex: 1;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.is-active {
+  border-bottom: 3px solid #61dafb;
+}
