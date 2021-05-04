@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = (props) => {
   return (
     <div >
-      <nav>
+      <nav role="nav">
         <ul className="App-navigation">
           <li className="App-navigation-item">
             <NavLink exact activeClassName="is-active" to="/">Universes</NavLink>
