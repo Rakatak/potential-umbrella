@@ -1,7 +1,7 @@
 # A little Challenge
 
-## Task 4
+## Task 5
 
 -   cd my-app
 -   yarn install
--   yarn start
+-   yarn test
