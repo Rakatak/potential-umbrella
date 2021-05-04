@@ -1,6 +1,6 @@
 # A little Challenge
 
-## Task 3
+## Task 4
 
 -   cd my-app
 -   yarn install

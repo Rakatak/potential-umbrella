@@ -1,4 +1,4 @@
-import './Table.css';
+import './Table.scss';
 import React, { Component } from 'react'
 
 class Table extends Component {

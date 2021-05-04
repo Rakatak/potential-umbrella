@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "json-server": "^0.16.3",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "5.0.1",
@@ -18,7 +19,8 @@
     "start": "json-server --watch db.json --port 1234 & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "minify-css": "postcss build/static/css/main.*.css > build/static/css/main.*.css --replace"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.2",
+    "install": "^0.13.0",
+    "postcss-cli": "^7.1.0",
+    "autoprefixer": "^9.7.5"
+    }
 }

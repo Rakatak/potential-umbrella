@@ -1,4 +1,4 @@
-import './UniversesPage.css';
+import './UniversesPage.scss';
 import React from "react";
 import Table from "../../components/Table/Table";
 

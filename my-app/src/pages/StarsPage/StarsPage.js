@@ -1,4 +1,4 @@
-import './StarsPage.css';
+import './StarsPage.scss';
 import React from "react";
 import Table from "../../components/Table/Table";
 

@@ -1,5 +1,5 @@
 import logo from './ukw-logo.png';
-import './App.css';
+import './App.scss';
 
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
