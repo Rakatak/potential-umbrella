@@ -9,7 +9,7 @@ class Table extends Component {
 
   render() {
     return (
-      <table className="App-table">
+      <table role="table" className="App-table">
         <tbody>
           <tr>{this.renderTableHeader(this.props.data)}</tr>
           {this.renderTableData(this.props.data)}
@@ -20,7 +20,6 @@ class Table extends Component {
 
   renderTableData(tableData) {
     return tableData.map((data, index) => {
-      console.log(data)
       return (
         <tr key={data.id}>
           {
